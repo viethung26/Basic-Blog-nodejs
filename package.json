@@ -4,5 +4,24 @@
   "description": "Basic blog for writting my thinks",
   "main": "index.js",
   "author": "Hideki",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "watch": "nodemon --quite src/index.js --exec babel-node --presets babel-preset-minify",
+    "help": "nodemon -h options"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.7.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.2",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.7",
+    "@babel/core": "^7.7.7",
+    "@babel/node": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-preset-minify": "^0.5.1",
+    "morgan": "^1.9.1"
+  }
 }
