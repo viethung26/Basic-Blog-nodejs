@@ -1,0 +1,8 @@
+{
+  "name": "Basic-Blog",
+  "version": "1.0.0",
+  "description": "Basic blog for writting my thinks",
+  "main": "index.js",
+  "author": "Hideki",
+  "license": "MIT"
+}
